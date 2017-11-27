@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 生命科学学院 </title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{position:relative;}
+     .head{width:100%;
+	       height:50px;
+		   background:rgba(0,0,0,0.3);
+		   margin:0px auto;
+	       }
+	 .xue{color:black;
+	      font-size:47px;
+	      font-family:"华文行楷";
+		  text-indent:2px;
+	      }
+	  .head button{width:40px;
+				   height:20px;
+				   background:red;
+				   color:white;
+				   font-size:14px;
+				   line-height:16px;
+				   float:right;
+				   margin-right:50px;
+				   border-radius:5px;
+				   margin-top:15px;
+				   cursor:pointer;
+				}
+   .head .ke a{color:black;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   float:right;
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+		   .h{margin-top:5px;}
+	 .content a img{position:absolute;
+					top:202px;
+					left:20px;
+	              }
+	   .jisuanji{width:198px;
+	             color:black;
+	             font-size:25px;
+	             font-family:"华文行楷";
+                 margin:-161px 122px;
+				 letter-spacing:3px;
+	             }
+		.jisuanji:hover{color:#ff3300;
+		                font-size:30px;}
+		       a{text-decoration:none;}
+			 .im{width:800px;
+			     height:300px;
+				 position:absolute;
+				 top:100px;
+				 margin-left:390px;
+				 }
+			.text{width:100%;
+			      position:absolute;
+				  top:405px;
+				  letter-spacing:3px;
+				  }
+            .title{text-align:center;}
+			.text p{width:1235px;
+			        margin-top:10px;
+			        margin-left:55px;
+			        font-size:20px;
+			        font-family:"微软雅黑"
+			      }
+			.foot{background:gray;
+			    width:100%;
+				height:50px;
+				color:black;
+				text-align:center;
+			    margin-top:1905px;
+				}
+		.daohang{width:100%;
+		         height:40px;
+				 margin-top:5px;
+		         }
+.daohang .udaohang{width:1102px;
+                   height:40px;
+				   margin:0px auto;
+                   }
+
+		.daohang ul li{width:215px;
+		               height:40px;
+					   float:left;
+					   list-style:none;
+					   background:#cc66cc;
+					   color:white;
+					   font-size:20px;
+					   font-family:"微软雅黑";
+					   margin-left:5px;
+					   text-align:center;
+					   line-height:40px;
+		                  }
+.daohang .udaohang li:hover{background:#0066cc;}
+				 /*s.baanner*/
+   .banner{width:700px;
+          height:280px;
+		  margin-top:20px;
+		  bottom:5px;
+		  left:476px;
+		  position:relative; 
+		  cursor:pointer;
+		  }
+   .banner img{height:280px;
+              position:absolute;
+              top:0px;
+			  left:0px;
+			  opacity:0;
+			  }
+   .banner .firstimg{opacity:1;
+                    }
+   .banner .java{width:120px;
+                height:12px;
+				margin:0px auto;
+				}
+   .banner  .java{width:120px;
+                 height:12px;
+				 position:absolute;
+				 left:290px;;
+				 bottom:0px;
+				 }
+   .banner .java a{width:12px;
+                  height:12px;
+				  background:rgba(0,0,0,1);
+				  display:block;
+				  float:left;
+				  margin:5px;
+				  margin-top:0px;
+				  left:5px;
+				  position:relative;
+				  border-radius:50%;
+				  }
+   .banner .java .java_first{background:rgba(0,0,0,0.2);}
+  /**/
+   .banner p{width:50px;
+             height:50px;
+		     background:rgba(0,0,0,0.5);
+		     position:absolute;
+		     color:white;
+		     font-size:30px;
+		     text-align:center;
+		     line-height:50px;
+		   
+		     }
+   .banner .btn{position:absolute;
+                top:125px;
+				z-index:2;
+				background:rgba(0,0,0,0.5);
+				padding:4px 3px;
+				}
+  .banner .left{left:5px;}
+ .banner .right{right:5px;}
+         #gwc{width: 325px;
+                  height: 100%;
+                  position: fixed;
+                  right: -285px;
+                  top:55px;
+                  cursor:pointer;}
+       #gwc .can {
+                  width: 40px;
+                  height: 100%;
+                  background: rgba(0,0,0,0.3);
+                  float: left;
+                  }
+#gwc .can .canbut {
+                   display: block;
+                   color: red;
+                   width: 12px;
+                   font-size:14px;
+                   padding: 20px 14px;
+                   background: rgba(0,0,0,0.2);
+                   margin-top: 200px;
+                   }
+        #gwc .con { 
+                   width: 285px;
+                   height: 100%;
+                   background: rgba(0,0,0,0.1);
+                   float: right;
+                   }
+          #gwc .con p{margin:20px;
+		              color:#ff0000;
+					  font-size:16px;
+					  font-family:"微软雅黑";
+					  text-indent:-9px;
+					  font-weight:bold;
+					  margin-top:24px;}
+#gwc .con .content{
+			height:70px;
+			border-bottom:1px solid #fff;
+			padding:5px 10px;
+
+		}
+		#gwc .con .content img{
+			float:left;
+			margin-right:10px;
+		}
+		#gwc .con .content .text{
+			width:120px;
+			float:left;
+			font-size:12px;
+			line-height:12px;/*行高*/
+		}
+		#gwc .con .content .con-money{
+			width:120px
+			font-size:12px;
+			float:left;	
+			line-height:12px;/*行高*/
+			color:red;
+		}
+  </style>
+
+ </head>
+ 
+ <body>
+     <div class="head">
+	     <a href="students login.html" > <button>登录</button></a>
+		 <div class="ke"><a href="http://tb.53kf.com/webCompany.php?arg=10080899&style=1">客服</a></div>
+	     <a href="index.html"> <p class="xue">淮北师范大学</p> </a>
+	</div>
+	 <div class="daohang">
+		     <ul class="udaohang">
+			     <a title="&#12;生物科学(师范类)"href="#1"><li>生物科学(师范类)</li></a>
+				 <a title="&#13;生物工程"href="#2"><li>生物工程</li></a>
+				 <a title="&#14;环境科学"href="#3"><li>环境科学</li></a>
+				 <a title="&#15;园艺"href="#4"><li>园艺</li></a>
+				 <a title="&#16;环境生态工程"href="#5"><li>环境生态工程</li></a>
+			 </ul>
+		 </div>
+		 <hr class="h">
+	<div class="banner">
+         <img class="" src="image/1.jpg" width="700" height="280">
+         <img src="image/2.jpg" width="700" height="280" class="">
+         <img src="image/6.jpg" width="700" height="280" class="">
+         <img src="image/13.jpg" width="700" height="280" class="firstimg">
+         <img src="image/11.jpg" width="700" height="280" class="">
+  
+  
+ 
+	   <div class="java">
+		  <a class="java_first" href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+	   </div>
+       <p class="btn left" style="display: none;">&lt;</p>
+       <p class="btn right" style="display: none;">&gt;</p>
+	
+    </div>
+	 <div class="content">
+	     
+	     <a href="index.html">
+				 <img src="image/8.jpg" width="100" height="100">
+				 <p class="jisuanji">生命科学学院</p>
+		 </a>
+		 
+		 
+		<div class="text">
+		  <hr>
+		     <h2 class="title">生命科学学院</h2>
+		     <p> &nbsp;&nbsp;&nbsp;&nbsp;生命科学学院的前身生物系成立于1990年(1988年招收生化班----专科)，现有生物科学、生物工程、环境科学、园艺、环境生态工程5个本科专业，设有生物学、生物工程、环境科学与工程3个系和1个基础生物学实验教学中心。拥有生物学一级硕士学位授权点1个，资源植物生物学安徽省重点实验室1个，基础生物省级实验示范中心1个，中央支持地方高校优势特色学科实验室3个，《生物科学》和《生物工程》省级特色专业2个，省级精品课程3门。</p>
+			 <p> &nbsp;&nbsp;&nbsp;&nbsp;生命科学学院的前身生物系成立于1990年(1988年招收生化班----专科)，现有生物科学、生物工程、环境科学、园艺、环境生态工程5个本科专业，设有生物学、生物工程、环境科学与工程3个系和1个基础生物学实验教学中心。拥有生物学一级硕士学位授权点1个，资源植物生物学安徽省重点实验室1个，基础生物省级实验示范中心1个，中央支持地方高校优势特色学科实验室3个，《生物科学》和《生物工程》省级特色专业2个，省级精品课程3门。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;生命科学学院现有教职工71人，其中教授12人，副教授23人，硕士生导师18人。全国优秀教师1人，省级教学名师1人，安徽省学术与技术带头人后备人选2人，省高校学科带头人3人，省高校骨干教师4人。教职工中具有硕士以上学位者占94%，其中获得博士学位的31人。近5年本科生考研录取率均在40%以上，2014年本科生考研录取率达到49%;近年来先后有百余名学生因学习、文体活动等成绩突出受到国家和省级表彰，另有多名同学到国外大学进行交流、培训。长期以来，学院坚持产学研结合，坚持为地方社会经济发展服务，坚持实验室开放，积极开展科技成果转化，对教师科研能力的提升、学生科研意识和创新精神的培养发挥了重要作用。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;近5年发表学术论文300余篇，其中被SCI收录80余篇;承担各类科研课题100余项，其中主持国家自然科学基金项目18项，省部级项目30余项;获得省级教学成果二等奖和三等奖各1项，安徽省科学技术三等奖3项。经过多年努力，生命科学学院已形成一支团结互助、积极进取、结构合理、学术水平较高、创新能力较强、教学效果良好的教学科研队伍和管理队伍，目前学院在校本科生2400余人，硕士研究生40余人。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;现有专任教师51人，其中教授9人，副教授19人，博士22人;全国优秀教师2人，曾宪梓优秀教师奖获得者1人，安徽省优秀教师1人，安徽省教育系统劳动模范1人，安徽省师德先进个人1人，安徽省学术技术带头人后备人选2人，省高校学科带头人3人，省中青年骨干教师4人。生命科学学院经过多年的努力已形成了一支团结互助、积极进取、结构合理、学术水平较高、创新能力较强、教学效果良好的教学科研队伍和管理队伍，在校本科生1400余人。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;学院具有良好的办学条件，拥有6900余平方米的基础实验室，2600多台仪器设备，总价值达3000余万元，其中包括透射电子显微镜、扫描电子显微镜、光合测定系统 LI-6400、叶绿素荧光仪PAM-2000、浮游植物荧光仪Phyto-PAM、光合蒸腾测定仪 CI-301、显微成像分析系统 BX51+DP71+IPE、激光共聚焦显微镜 FV-1000、高速冷冻离心机 3K30、定量PCR仪 7300、微孔板荧光检测仪 Modulus 96、超速离心机 CP90WX、凝胶成像系统 BioSpectrum AC、TOC分析仪 Element TOC、微生物检测系统 MIDI、原子吸收分光光度计 WFX-110、气质联用仪 agilient 5975C、氨基酸分析仪 A200、高效液相色谱 Ultimate3000、流动注射分析仪Bran+Luebbe等。实验条件能够承担:植物学、动物学、植物生理学、人体解剖及生理学、生物化学、微生物学、遗传学、细胞生物学、微生物工程、细胞工程、环境生物学、环境化学等20余门专业基础课与专业课程的实验教学任务。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="1"></a><b class="title">&#12;生物科学（师范类）</b>
+			 培养目标:本专业培养具有良好的思想道德修养和身心素质，具有现代教育理念、较高文化品质及科学素养，系统掌握生物科学专业的基础理论与基本技能，具有较强的专业水平和学习能力，在德、智、体、美等方面全面发展，能够适应经济社会发展，从教能力强且富有创新精神，成为具有在中等学校进行教学和教学研究能力的教师、教学研究人员及其他教育工作者。
+			 主要课程:植物学、动物学、植物生理学、动物生理学、人体组织解剖学、生物化学、遗传学、微生物学、细胞生物学、分子生物学、中学生物教学论、教育学、心理学、教育技术学等。
+			 本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="2"></a><b class="title">生物工程</b>
+             培养目标:本专业培养德、智、体、美等方面全面发展，掌握生物工程与技术及其产业化的科学原理、工艺技术过程和工程设计等基础理论、基本技能，能在生物工程与技术领域从事设计、生产、管理和新技术研究、新产品开发的工程技术人才。主要课程:有机化学、化工原理、生物化学、微生物学、细胞生物学、遗传学、分子生物学、基因工程、微生物发酵工程、酶工程、细胞工程、生物工艺学、生化工程、生物工程设备等。
+			 本专业学制四年，毕业后授予工学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="3"></a><b class="title">环境科学</b>
+             培养目标:本专业培养德、智、体全面发展，具备环境科学的基本理论、基础知识和基本技能，可以在科研机构、企事业单位及行政部门等从事科研、环境保护和环境管理等工作的高级专门人才。主要课程:有机化学、分析化学、环境生物学、生态学、环境科学概论、基础生物化学、环境微生物学、环境化学、环境监测、环境工程学、环境质量评价、环境土壤学、环境管理学、环境法学、环境信息系统等。
+			 本专业学制四年，毕业后授予理学学士学位</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="4"></a><b class="title">园艺</b>
+             培养目 :本专业培养德、智、体、美、劳全面发展，掌握园艺学的基础相关知识、基本理论和基本技能，能够胜任在园艺及其相关领域从事园艺技术开发与推广、经营管理等工作的高级专门人才。主要课程:植物学、基础生物化学、植物生理学、普通遗传学、生态学、园艺学导论、气象学、土壤肥料学、观赏树木学、田间试验设计与统计分析、园艺植物昆虫学、园艺植物病理学、园艺植物栽培学、园艺植物育种学、园艺产品贮藏运销学、园艺植物生物技术。
+			 本专业学制四年，毕业后授予农学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="5"></a><b class="title">环境生态工程</b>
+             培养目标:本专业培养德、智、体全面发展，具备环境科学的基本理论、基础知识和基本技能，可以在科研机构、企事业单位及行政部门等从事科研、环境保护和环境管理等工作的高级专门人才。主要课程:有机化学、分析化学、环境生物学、生态学、环境科学概论、基础生物化学、环境微生物学、环境化学、环境监测、环境工程学、环境质量评价、环境土壤学、环境管理学、环境法学、环境信息系统等。
+			 本专业学制四年，毕业后授予理学学士学位</p>
+		  <hr>
+		</div>
+		
+	 </div>
+	  <div id="gwc">
+			<div class="can">
+				<span class="canbut">友情连接</span>
+			</div>
+			<div class="con">
+			<a href="http://www.hbcnc.edu.cn/"><p>http://www.hbcnc.edu.cn/</p><br></a>
+			<a href="http://hbcnc.benke.chaoxing.com/"><p>http://hbcnc.benke.chaoxing.com/</p><br></a>
+			<a href="http://wwww.hao.360.com/"><p>http://wwww.hao.360.com/</p><br></a>
+			<a href="http://www.baidu.com/"><p>http://www.baidu.com/</p><br></a>
+			<a href="http://www.so.com/"><p>http://www.so.com/</p><br></a>
+			<a href="http://www.goole.com/"><p>http://www.goole.com/</p><br></a>
+			<a href="http://www.sogou.com/"><p>http://www.sogou.com/</p><br></a>
+			</div>
+		</div>
+	 <!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+        </div> 
+	 <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/5.js">
+			 
+</script>
+ </body>
+</html>
+

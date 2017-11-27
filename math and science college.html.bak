@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 数学学院 </title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{position:relative;}
+     .head{width:100%;
+	       height:50px;
+		   background:rgba(0,0,0,0.3);
+		   margin:0px auto;
+	       }
+	 .xue{color:black;
+	      font-size:47px;
+	      font-family:"华文行楷";
+		  text-indent:2px;
+	      }
+	  .head button{width:40px;
+				   height:20px;
+				   background:red;
+				   color:white;
+				   font-size:14px;
+				   line-height:16px;
+				   float:right;
+				   margin-right:50px;
+				   border-radius:5px;
+				   margin-top:15px;
+				   cursor:pointer;
+				}
+   .head .ke a{color:black;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   float:right;
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+		  .h{margin-top:5px;} 
+	 .content a img{position:absolute;
+					top:202px;
+					left:20px;
+	              }
+	   .jisuanji{width:166px;
+	             color:black;
+	             font-size:25px;
+	             font-family:"华文行楷";
+                 margin:-161px 122px;
+				 letter-spacing:3px;
+	             }
+		.jisuanji:hover{color:#ff3300;
+		                font-size:30px;}
+		       a{text-decoration:none;}
+			 .im{width:800px;
+			     height:300px;
+				 position:absolute;
+				 top:100px;
+				 margin-left:390px;
+				 }
+			.text{width:100%;
+			      position:absolute;
+				  top:405px;
+				  letter-spacing:3px;
+				  }
+            .title{text-align:center;}
+			.text p{width:1235px;
+			        margin-top:10px;
+			        margin-left:55px;
+			        font-size:20px;
+			        font-family:"微软雅黑"
+			      }
+			.foot{background:gray;
+			    width:100%;
+				height:50px;
+				color:black;
+				text-align:center;
+			    margin-top:1490px;
+				}
+		.daohang{width:100%;
+		         height:40px;
+				 margin-top:5px;
+		         }
+.daohang .udaohang{width:766px;
+                   height:40px;
+				   margin:0px auto;
+                   }
+
+		.daohang ul li{width:250px;
+		               height:40px;
+					   float:left;
+					   list-style:none;
+					   background:#cc66cc;
+					   color:white;
+					   font-size:20px;
+					   font-family:"微软雅黑";
+					   margin-left:5px;
+					   text-align:center;
+					   line-height:40px;
+		                  }
+.daohang .udaohang li:hover{background:#0066cc;}
+				 /*s.baanner*/
+   .banner{width:700px;
+          height:280px;
+		  margin-top:20px;
+		  bottom:5px;
+		  left:476px;
+		  position:relative; 
+		  cursor:pointer;
+		  }
+   .banner img{height:280px;
+              position:absolute;
+              top:0px;
+			  left:0px;
+			  opacity:0;
+			  }
+   .banner .firstimg{opacity:1;
+                    }
+   .banner .java{width:120px;
+                height:12px;
+				margin:0px auto;
+				}
+   .banner  .java{width:120px;
+                 height:12px;
+				 position:absolute;
+				 left:290px;;
+				 bottom:0px;
+				 }
+   .banner .java a{width:12px;
+                  height:12px;
+				  background:rgba(0,0,0,1);
+				  display:block;
+				  float:left;
+				  margin:5px;
+				  margin-top:0px;
+				  left:5px;
+				  position:relative;
+				  border-radius:50%;
+				  }
+   .banner .java .java_first{background:rgba(0,0,0,0.2);}
+  /**/
+   .banner p{width:50px;
+             height:50px;
+		     background:rgba(0,0,0,0.5);
+		     position:absolute;
+		     color:white;
+		     font-size:30px;
+		     text-align:center;
+		     line-height:50px;
+		     }
+   .banner .btn{position:absolute;
+                top:125px;
+				z-index:2;
+				background:rgba(0,0,0,0.5);
+				padding:4px 3px;
+				}
+  .banner .left{left:5px;}
+ .banner .right{right:5px;}
+         #gwc{width: 325px;
+                  height: 100%;
+                  position: fixed;
+                  right: -285px;
+                  top:55px;
+                  cursor:pointer;}
+       #gwc .can {
+                  width: 40px;
+                  height: 100%;
+                  background: rgba(0,0,0,0.3);
+                  float: left;
+                  }
+#gwc .can .canbut {
+                   display: block;
+                   color: red;
+                   width: 12px;
+                   font-size:14px;
+                   padding: 20px 14px;
+                   background: rgba(0,0,0,0.2);
+                   margin-top: 200px;
+                   }
+        #gwc .con { 
+                   width: 285px;
+                   height: 100%;
+                   background: rgba(0,0,0,0.1);
+                   float: right;
+                   }
+          #gwc .con p{margin:20px;
+		              color:#ff0000;
+					  font-size:16px;
+					  font-family:"微软雅黑";
+					  text-indent:-9px;
+					  font-weight:bold;
+					  margin-top:24px;}
+#gwc .con .content{
+			height:70px;
+			border-bottom:1px solid #fff;
+			padding:5px 10px;
+
+		}
+		#gwc .con .content img{
+			float:left;
+			margin-right:10px;
+		}
+		#gwc .con .content .text{
+			width:120px;
+			float:left;
+			font-size:12px;
+			line-height:12px;/*行高*/
+		}
+		#gwc .con .content .con-money{
+			width:120px
+			font-size:12px;
+			float:left;	
+			line-height:12px;/*行高*/
+			color:red;
+		}
+  </style>
+
+ </head>
+ 
+ <body>
+     <div class="head">
+	     <a href="students login.html" > <button>登录</button></a>
+		 <div class="ke"><a href="http://tb.53kf.com/webCompany.php?arg=10080899&style=1">客服</a></div>
+	     <a href="index.html"> <p class="xue">淮北师范大学</p> </a>
+	</div>
+	 <div class="daohang">
+		     <ul class="udaohang">
+			     <a title="&#12;统计学"href="#1"><li>统计学</li></a>
+				 <a title="&#13;数学与应用数学"href="#2"><li>数学与应用数学</li></a>
+				 <a title="&#14;金融数学"href="#3"><li>金融数学</li></a>
+			 </ul>
+		 </div> 
+		 <hr class="h">
+	<div class="banner">
+         <img class="" src="image/1.jpg" width="700" height="280">
+         <img src="image/2.jpg" width="700" height="280" class="">
+         <img src="image/6.jpg" width="700" height="280" class="">
+         <img src="image/13.jpg" width="700" height="280" class="firstimg">
+         <img src="image/11.jpg" width="700" height="280" class="">
+	   <div class="java">
+		  <a class="java_first" href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+	   </div>
+       <p class="btn left" style="display: none;">&lt;</p>
+       <p class="btn right" style="display: none;">&gt;</p>
+	
+    </div>
+	 <div class="content">
+	     
+	     <a href="index.html">
+				 <img src="image/8.jpg" width="100" height="100">
+				 <p class="jisuanji">数学科学院</p>
+		 </a>
+		
+		 
+		<div class="text">
+		  <hr>
+		     <h2 class="title">数学科学院</h2>
+		     <p> &nbsp;&nbsp;&nbsp;&nbsp;数学科学学院始建于1974年，是淮北师范大学最早设立的四个二级教学单位之一。经过三十多年的建设与发展，该学院现有数学与应用数学(师范类)、信息与计算科学和统计学三个本科专业，拥有数学一级学科硕士授权点。学院师资力量雄厚，现有专任教师50余人中，教授11人，副教授12人，有博士学位者11人(在职攻读博士学位者5人)，硕士学位者近40人，安徽省学术技术带头人2人，安徽省高校拔尖人才2人，安徽省高校中青年学科带头人5人，安徽省高校优秀中青年骨干教师3人，硕士生导师12人。另外还聘请中国科技大学、安徽大学、合肥工业大学等著名高校多名专家为兼职教授，现已形成一支年龄结构、职称结构和学历结构均较合理的师资队伍。</p>
+			 <p> &nbsp;&nbsp;&nbsp;&nbsp;他们治学严谨，潜心研究，已在数理逻辑及应用、信息安全、分形与小波理论及应用、金融数学和拓扑动力系统等领域取得了丰硕的科研成果，并逐步形成自己的研究特色。
+			 数学科学学院多年来狠抓专业建设和学科建设，"数学与应用数学"是安徽省重点建设专业和安徽省教改示范专业，2008年又被教育部批准为国家特色专业;《数学分析》是省级精品课程和省级重点建设课程，《数学教育学》是省级重点建设课程;"应用数学"是学校5个省级重点学科之一;数学一级学科拥有硕士学位授予权，并被确定为安徽省2008~2015年立项建设新增博士学位授权单位支撑学科。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;数学科学学院一贯重视科研工作，科研实力不断增强。现有一个数学研究所和一个数学实验室。在国内外学术刊物上发表学术论文320余篇，其中被SCI、EI、ISTP等收录近50篇，出版学术著作和教材10余部，获省部级奖励10余项，主持国家自然科学基金项目6项，省部级科研项目40项，省重点教研项目2项。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;数学科学学院始终以社会需求为己任，多年来坚持以培养中等学校数学师资为主，兼顾培养统计学和信息与计算科学等领域应用型人才。该学院重视学生创新能力和综合素质的培养，努力使之成为基础扎实、知识面宽、素质优良的专门人才，并取得了优异的成绩。学院党总支多次被授予安徽省先进基层党组织称号;多个班级先后被原煤炭工业部、安徽省教育厅授予省部级先进班集体;学生中有吴胜华、王树国等同学获中国科协"孙越崎"奖学金，有多人次先后获国家奖学金。学院考取研究生的比例呈逐届上升之势，2010届考取比例近30%。毕业生一次性就业率每年均居专业前列。绝大多数毕业生基础扎实，工作中朴实、安心、能干，赢得了良好的社会声誉。自建院以来，学院已为社会输送了4000多名本科毕业生。他们中的典型代表有:乔建永，1982届毕业生，博士后，教授，博士生导师，现任中国矿业大学(北京校区)校长，俄罗斯工程院外籍院士;魏捷，1981届毕业生，博士，教授，现任阜阳师范学院党委书记;陈国龙，1987届毕业生，博士后，教授，现任宿州学院院长;魏仕民，1986届毕业生，博士后，教授，现任淮北职业技术学院院长。另有1983届毕业生徐茂智，博士后，教授，现为北京大学博士生导师;1985届毕业生杨印生，博士后，教授，现为吉林大学博士生导师。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="1"></a><b class="title">&#12;统计学</b>
+			 培养目标:本专业培养具有良好的数学与经济学素养，掌握统计学的基本理论和方法，能熟练地运用计算机分析数据，能在企业、事业单位和经济、管理部门从事统计调查、统计信息管理、数据分析等开发、应用和管理工作, 或在科研、教育部门从事研究和教学工作的专门人才。
+			 主要课程:数学分析、高等代数、解析几何、程序设计语言、数值分析、概率论、数理统计、统计学、回归分析、随机过程、多元统计分析、数据库原理等。
+			 本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="2"></a><b class="title">&#12;数学与应用数学(师范)</b>
+			 培养目标:本专业培养掌握数学科学的基本理论、基础知识与基本方法，基础扎实，知识面宽，能力强，素质高，具有创新精神和较强的实践能力，与时俱进，能够应用数学知识和使用计算机解决实际问题，能在高等和中等学校从事数学教学、教研和教育教学管理工作的专门人才。
+			 主要课程:数学分析、几何学、代数学、概率论与数理统计、微分方程、函数论、离散数学、数学史、数值方法与计算机技术、数学模型、数学实验、教育学与心理学、数学教学论等。
+			 本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="3"></a><b class="title">&#12;金融数学</b>
+			 培养目标:金融数学方向培养掌握数学科学的基本理论与基本方法、基本技能，掌握金融基础理论并接受严格数理金融思维训练，具备运用所学的数学与金融分析方法进行经济、金融信息分析与数学处理的能力，能够开发、设计、操作新型的金融工具和手段，能够综合运用各种金融工具和手段分析和解决金融实务问题，能凭借坚实的数学基础和金融基础，在金融证券、投资、保险等部门从事经济分析、经济建模、金融产品设计工作的专门人才。
+			 主要课程:数学分析，高等代数，解析几何，概率论，常微分方程，数学模型与实验，复变函数，数理统计，数值分析，程序设计语言，微观经济学，宏观经济学，会计学，货币银行学，金融数学引论，证券投资学，国际金融，计量经济学。</p>
+		  <hr>
+		</div>
+		
+	 </div>
+	 <div id="gwc">
+			<div class="can">
+				<span class="canbut">友情连接</span>
+			</div>
+			<div class="con">
+			<a href="http://www.hbcnc.edu.cn/"><p>http://www.hbcnc.edu.cn/</p><br></a>
+			<a href="http://hbcnc.benke.chaoxing.com/"><p>http://hbcnc.benke.chaoxing.com/</p><br></a>
+			<a href="http://wwww.hao.360.com/"><p>http://wwww.hao.360.com/</p><br></a>
+			<a href="http://www.baidu.com/"><p>http://www.baidu.com/</p><br></a>
+			<a href="http://www.so.com/"><p>http://www.so.com/</p><br></a>
+			<a href="http://www.goole.com/"><p>http://www.goole.com/</p><br></a>
+			<a href="http://www.sogou.com/"><p>http://www.sogou.com/</p><br></a>
+			</div>
+		</div>
+	 <!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+        </div> 
+	 <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/5.js">
+			 
+</script>
+ </body>
+</html>
+

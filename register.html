@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>注册</title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{background:rgba(0,0,0,0.1);
+	      position:relative;
+	      }
+   .head{width:100%;
+	     height:50px;
+		 line-height:50px;
+		 background:rgba(0,0,0,0.3);
+		 margin-top:0px;}
+.head .return{width:240px;
+		      text-decoration:none;
+			  display:block;}
+		 .head{margin-left:5px;}
+		 .binhu{width:200px;
+		        margin-top:-50px;
+				margin-left:45px;
+	            font-size:30px;
+			    font-family:"微软雅黑";
+			    text-align:center;
+			}
+	.binhu:hover{color:red;}
+	.ke{margin-left:1308px;
+	    margin-top:-52px;}
+	.head .ke a{
+	           color:white;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+	  .dl{width:400px;
+	      height:400px;
+		  margin:220px auto;
+		      }
+            .yh{
+			    width:165px;
+				height:52px;
+				margin:100px auto;
+				font-family:"微软雅黑";
+		        font-size:38px;
+				text-align:center;
+				line-height:52px;
+			}
+		  
+		  .xue{font-family:"微软雅黑";
+		       font-size:25px;
+			   margin-top:30px;
+			   margin-bottom:-26px;
+			   margin-left:122px;
+			   } 
+.zad_site_2{width:200px;
+            height:30px;
+			margin:80px 100px;
+			text-align:center;
+			font-size:18px;
+			line-height:20px;
+            }  
+.yanzheng{width:120px;
+            height:30px;
+			margin-top:-8px;
+			margin-left:100px;
+			text-align:center;
+			font-size:12px;
+			line-height:20px;
+            }  
+		.get{width:70px;
+		     height:25px;
+			 cursor:pointer;
+			 }
+ .get:hover{background:rgba(0,0,0,0.3);}
+ .zl_input2{width:200px;
+            height:30px;
+			margin:-55px 100px;
+			text-align:center;
+			font-size:18px;
+			line-height:20px;
+            }  
+			#input1{
+			   margin-left:75px;
+			}
+
+			.code{
+
+			font-family:Arial,宋体;
+			font-style:italic;
+			color:green;
+			border:0;
+			padding:2px 3px;
+			
+			letter-spacing:3px;
+			font-weight:bolder;
+			}
+			.sure{
+			  margin-left:140px;
+			}
+			.unchanged {
+			border:0;
+			}
+         .sub{width:204px;
+		      height:30px;
+			  font-size:18px;
+			  font-family:"微软雅黑"；
+			  text-align:center;
+			  line-height:20px;
+			  margin:25px 100px;
+			  cursor:pointer;
+		      }
+		 .sub:hover{background:red;}
+	   .foot{background:gray;
+			 width:100%;
+		     height:50px;
+			 color:black;
+			 text-align:center;
+			 margin-top:-51px;
+				}
+  </style>
+ </head>
+
+ <body onLoad="createCode();">
+    <div class="head">
+	  <a class="return" href="index.html">
+		  <img src="image/8.jpg" width="50" height="50">
+		  <p class="binhu">淮北师范大学</p>
+	  </a>
+	  <div class="ke"><a href="guest serve.html">客服</a></div>
+	 </div>
+        <div class="yh">      
+           <p >用户登录</p>
+		</div>
+    <div class="dl">
+	    <p class="xue">淮北师范大学</p>
+	       <form action="">
+	             <label for="name">
+					<input type="text" class="zad_site_2" value="手机号/邮箱" name="keyword" color="#ff3366"onfocus="if(this.value=='手机号/邮箱')this.value='';" onblur="if(this.value=='')this.value='手机号/邮箱';">
+				</label>
+				<label for="password">
+					<input class="zl_input2" style="font-size:14px;font-family:'微软雅黑'" type="password" placeholder="密码">
+		        </label>
+			        
+				<input type="text" id="input1" />
+				<input type="button" id="checkCode" class="code" style="width:100px" onClick="createCode()" /> 
+				<div class="sure">
+					<a href="#" onClick="createCode()">看不清楚</a>
+					<input id="Button1" onClick="validate();" type="button" value="确定" />
+				</div>
+				<input class="sub" type="button" value="注册" onclick="myssubmit('form')">
+
+		   <form>
+	</div>
+	<!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+
+		</div>
+		<script language="javascript" type="text/javascript">
+var code ; //在全局 定义验证码
+function createCode(){ 
+code = new Array();
+var codeLength = 4;//验证码的长度
+var checkCode = document.getElementById("checkCode");
+checkCode.value = "";
+
+var selectChar = new Array(2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y','Z');
+
+for(var i=0;i<codeLength;i++) {
+   var charIndex = Math.floor(Math.random()*32);
+   code +=selectChar[charIndex];
+}
+if(code.length != codeLength){
+   createCode();
+}
+checkCode.value = code;
+}
+
+function validate () {
+var inputCode = document.getElementById("input1").value.toUpperCase();
+
+if(inputCode.length <=0) {
+   alert("请输入验证码！");
+   return false;
+}
+else if(inputCode == code ){
+   alert("成功！");
+   return true;
+}
+else {
+   alert("验证码输入错误！");
+   
+createCode();
+   return false;
+}
+}
+</script>
+ </body>
+</html>

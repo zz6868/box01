@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 经济学院 </title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{position:relative;}
+     .head{width:100%;
+	       height:50px;
+		   background:rgba(0,0,0,0.3);
+		   margin:0px auto;
+	       }
+	 .xue{color:black;
+	      font-size:47px;
+	      font-family:"华文行楷";
+		  text-indent:2px;
+	      }
+	  .head button{width:40px;
+				   height:20px;
+				   background:red;
+				   color:white;
+				   font-size:14px;
+				   line-height:16px;
+				   float:right;
+				   margin-right:50px;
+				   border-radius:5px;
+				   margin-top:15px;
+				   cursor:pointer;
+				}
+   .head .ke a{color:black;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   float:right;
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+		   .h{margin-top:5px;}
+	 .content a img{position:absolute;
+					top:202px;
+					left:20px;
+	              }
+	   .jisuanji{width:145px;
+	             color:black;
+	             font-size:25px;
+	             font-family:"华文行楷";
+                 margin:-161px 122px;
+				 letter-spacing:3px;
+	             }
+		.jisuanji:hover{color:#ff3300;
+		                font-size:30px;}
+		       a{text-decoration:none;}
+			 .im{width:800px;
+			     height:300px;
+				 position:absolute;
+				 top:100px;
+				 margin-left:390px;
+				 }
+			.text{width:100%;
+			      position:absolute;
+				  top:405px;
+				  letter-spacing:3px;
+				  }
+            .title{text-align:center;}
+			.text p{width:1235px;
+			        margin-top:10px;
+			        margin-left:55px;
+			        font-size:20px;
+			        font-family:"微软雅黑"
+			      }
+			.foot{background:gray;
+			    width:100%;
+				height:50px;
+				color:black;
+				text-align:center;
+			    margin-top:1755px;
+				}
+		.daohang{width:100%;
+		         height:40px;
+				 margin-top:5px;
+		         }
+.daohang .udaohang{width:1102px;
+                   height:40px;
+				   margin:0px auto;
+                   }
+
+		.daohang ul li{width:215px;
+		               height:40px;
+					   float:left;
+					   list-style:none;
+					   background:#cc66cc;
+					   color:white;
+					   font-size:20px;
+					   font-family:"微软雅黑";
+					   margin-left:5px;
+					   text-align:center;
+					   line-height:40px;
+		                  }
+.daohang .udaohang li:hover{background:#0066cc;}
+				 /*s.baanner*/
+   .banner{width:700px;
+          height:280px;
+		  margin-top:20px;
+		  bottom:5px;
+		  left:476px;
+		  position:relative; 
+		  cursor:pointer;
+		  }
+   .banner img{height:280px;
+              position:absolute;
+              top:0px;
+			  left:0px;
+			  opacity:0;
+			  }
+   .banner .firstimg{opacity:1;
+                    }
+   .banner .java{width:120px;
+                height:12px;
+				margin:0px auto;
+				}
+   .banner  .java{width:120px;
+                 height:12px;
+				 position:absolute;
+				 left:290px;;
+				 bottom:0px;
+				 }
+   .banner .java a{width:12px;
+                  height:12px;
+				  background:rgba(0,0,0,1);
+				  display:block;
+				  float:left;
+				  margin:5px;
+				  margin-top:0px;
+				  left:5px;
+				  position:relative;
+				  border-radius:50%;
+				  }
+   .banner .java .java_first{background:rgba(0,0,0,0.2);}
+  /**/
+   .banner p{width:50px;
+             height:50px;
+		     background:rgba(0,0,0,0.5);
+		     position:absolute;
+		     color:white;
+		     font-size:30px;
+		     text-align:center;
+		     line-height:50px;
+		   
+		     }
+   .banner .btn{position:absolute;
+                top:125px;
+				z-index:2;
+				background:rgba(0,0,0,0.5);
+				padding:4px 3px;
+				}
+  .banner .left{left:5px;}
+ .banner .right{right:5px;}
+         #gwc{width: 325px;
+                  height: 100%;
+                  position: fixed;
+                  right: -285px;
+                  top:55px;
+                  cursor:pointer;}
+       #gwc .can {
+                  width: 40px;
+                  height: 100%;
+                  background: rgba(0,0,0,0.3);
+                  float: left;
+                  }
+#gwc .can .canbut {
+                   display: block;
+                   color: red;
+                   width: 12px;
+                   font-size:14px;
+                   padding: 20px 14px;
+                   background: rgba(0,0,0,0.2);
+                   margin-top: 200px;
+                   }
+        #gwc .con { 
+                   width: 285px;
+                   height: 100%;
+                   background: rgba(0,0,0,0.1);
+                   float: right;
+                   }
+          #gwc .con p{margin:20px;
+		              color:#ff0000;
+					  font-size:16px;
+					  font-family:"微软雅黑";
+					  text-indent:-9px;
+					  font-weight:bold;
+					  margin-top:24px;}
+#gwc .con .content{
+			height:70px;
+			border-bottom:1px solid #fff;
+			padding:5px 10px;
+
+		}
+		#gwc .con .content img{
+			float:left;
+			margin-right:10px;
+		}
+		#gwc .con .content .text{
+			width:120px;
+			float:left;
+			font-size:12px;
+			line-height:12px;/*行高*/
+		}
+		#gwc .con .content .con-money{
+			width:120px
+			font-size:12px;
+			float:left;	
+			line-height:12px;/*行高*/
+			color:red;
+		}
+  </style>
+
+ </head>
+ 
+ <body>
+     <div class="head">
+	     <a href="students login.html" > <button>登录</button></a>
+		 <div class="ke"><a href="http://tb.53kf.com/webCompany.php?arg=10080899&style=1">客服</a></div>
+	     <a href="index.html"> <p class="xue">淮北师范大学</p> </a>
+	</div>
+	 <div class="daohang">
+		     <ul class="udaohang">
+			     <a title="&#12;经济学"href="#1"><li>经济学</li></a>
+				 <a title="&#13;国际经济与贸易"href="#2"><li>国际经济与贸易</li></a>
+				 <a title="&#14;会计学"href="#3"><li>会计学</li></a>
+				 <a title="&#15;市场营销"href="#4"><li>市场营销</li></a>
+				 <a title="&#16;财务管理专业(2012年)"href="#5"><li>财务管理专业(2012年)</li></a>
+			 </ul>
+		 </div>
+		 <hr class="h">
+	<div class="banner">
+         <img class="" src="image/1.jpg" width="700" height="280">
+         <img src="image/2.jpg" width="700" height="280" class="">
+         <img src="image/6.jpg" width="700" height="280" class="">
+         <img src="image/13.jpg" width="700" height="280" class="firstimg">
+         <img src="image/11.jpg" width="700" height="280" class="">
+  
+  
+ 
+	   <div class="java">
+		  <a class="java_first" href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+	   </div>
+       <p class="btn left" style="display: none;">&lt;</p>
+       <p class="btn right" style="display: none;">&gt;</p>
+	
+    </div>
+		 
+	 <div class="content">
+	     
+	     <a href="index.html">
+				 <img src="image/20.jpg" width="100" height="100">
+				 <p class="jisuanji">经济学院</p>
+		 </a>
+		 
+		<div class="text">
+		  <hr>
+		     <h2 class="title">经济学院</h2>
+		     <p> &nbsp;&nbsp;&nbsp;&nbsp;经济学院主要承担为社会培养合格的、具有创新能力和高素质的经济理论与管理方面的应用型人才。经济学院的办学理念是:践行科学发展观，育人为本，创新知识，服务社会。</p>
+			 <p> &nbsp;&nbsp;&nbsp;&nbsp;经济学院现有专任教师45人，其中教授5人、副教授12人，博士8人，硕士以上学历的教师占专任教师的比例达91.18%。教师队伍中有省级重点学科带头人1人，省高校优秀中青年骨干教师1人，学校优秀主讲教师2人，硕士生导师4人。学院教师承担国家、省级科研和教研项目35项;在国家和省级重点刊物发表论文90余篇;出版专著6部，获省部级以上科研奖励2项。淮北师范大学经济学院现有5个本科专业:经济学专业、国际经济与贸易专业、会计学专业、市场营销专业,财务管理专业，现有在校本科生1430人。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;经济学院现有专任教师45人，其中教授5人、副教授12人，博士8人，硕士以上学历的教师占专任教师的比例达91.18%。教师队伍中有省级重点学科带头人1人，省高校优秀中青年骨干教师1人，学校优秀主讲教师2人，硕士生导师4人。学院教师承担国家、省级科研和教研项目35项;在国家和省级重点刊物发表论文90余篇;出版专著6部，获省部级以上科研奖励2项。学院现拥有经济管理实验中心，校"淮海经济与社会发展研究中心"设在经济与管理学院，以此为基础成立的"皖北经济与社会发展研究中心"立项成为安徽省高校人文社会科学重点研究基地;与淮北市共建有"创业模拟实训基地"。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;经济学院始终注重学风建设，在人才培养上，坚持以学生为本，以素质教育为核心，以实践能力和创新能力的培育为重点，着力提高学生的应用能力和综合素质。为给学生提供一个专业学习交流的平台、创新思维的载体，拓展专业视野，培养学生的学术素养，提高成就事业的素质，提高分析问题和解决问题的能力，创办了《淮海经济导报》、"淮海经济论坛"、"创业计划竞赛"、"财经论文竞赛"、"营销策划竞赛"、"会计职业技能竞赛"等学科专业活动，在全校影响较大，已成为经济学院专业教学和学生活动的特色，并取得了良好的效果。在已参加的安徽省近三届"挑战杯"大学生创业计划大赛中，由经济学院学生组成的创业团队代表学校参赛，获得1个金奖、3个银奖和6个铜奖;2009年以来连续两次入围全国大学生营销策划总决赛并获三等奖;大学生经济学研究会连年被评为学校A级名牌学生社团。"坚持素质教育，着力提高学生的应用能力和综合素质"，已成为经济学院的办学特点。毕业生就业率连年位居学校前列，就业质量稳步提高，2008年以来，连续两次并评为学校"就业工作先进单位"。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="1"></a><b class="title">&#12;经济学</b>
+			 培养目标:本专业培养具备扎实的马克思主义经济学理论基础，熟悉现代西方经济学理论，熟练掌握现代经济分析方法，知识面较宽，具有向经济学相关领域扩展渗透的能力，能在综合经济管理部门、政策研究部门、金融机构、企业事业单位和高等专科学校从事经济分析、预测、规划和经济管理及科研教学工作的高级专门人才。主要课程:政治经济学、微观经济学、宏观经济学、会计学、统计学、财政学、计量经济学、国际经济学、货币银行学、宏观经济管理学、经济学说史、发展经济学、企业管理、市场营销学、国际金融、国际贸易、经济数学、产业经济学、区域经济学、证券投资等课程。本专业学制四年，毕业后授予经济学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="2"></a><b class="title">国际经济与贸易</b>
+			 培养目标:本专业培养系统掌握现代经济学、国际经济、国际贸易的基本理论和基本技能，了解当代国际经济贸易的发展现状，熟悉国际经贸实务和国际通行的国际贸易惯例与规则，了解我国国际贸易有关的政策和法规，理论基础扎实、知识面宽、视野开阔、受到较严格的对外交流能力的培养和训练，并有向经济学相关学科领域拓展的专门人才。毕业生能在涉外经济贸易领域、金融机构、外资企业及政府部门、事业单位从事经贸业务、管理、策划、调研、咨询等方面的工作。
+			 主要课程:微观经济学、宏观经济学、国际经济学、国际贸易理论、国际贸易实务、国际市场营销、管理学、会计学、国际商法、商务谈判、国际金融、通关实务、世界经济、国际结算、电子商务概论、国际经贸英语、外贸函电等。
+			 本专业学制四年，毕业后授予经济学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="3"></a><b class="title">会计学</b>
+			 培养目标:本专业培养适应经济社会发展和社会主义现代化建设需要，德、智、体全面发展，掌握必要的会计理论及操作技能，具备会计学、审计学、财务管理学、管理学、经济学等方面的知识和能力，基础扎实、知识面宽、能力强、素质高，能够胜任在各类企事单位及政府部门从事会计实务，以及会计教学和科研方面工作的高级专门人才。
+			 主要课程:会计学基础、管理学、微观经济学、宏观经济学、财务会计(中、高级)、成本会计、管理会计、财务管理、审计学、会计电算化、统计学、市场营销、经济法等。
+			 本专业学制四年，毕业后授予管理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="4"></a><b class="title">市场营销</b>
+			 培养目标:本专业培养具备扎实的经济学、管理学理论基础，掌握现代市场营销基本理论和技能，比较熟练地掌握现代市场调查分析方法，知识面宽，适应社会主义现代化建设需要，能在企业事单位、金融机构、政府相关部门从事市场营销与管理、教学和科研工作的工商管理方面的高级专门人才。
+			 主要课程:管理学、微观经济学、宏观经济学、企业管理、统计学、会计学、财务管理、市场营销、经济法、消费者行为学、国际市场营销、市场调查、商务谈判、电子商务、国际贸易、人力资源管理等。
+			 本专业学制四年，毕业后授予管理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="5"></a><b class="title">财务管理专业(2012年)</b>
+			 培养目标:本专业培养具备扎实的财务、会计、金融管理方面的基本理论和基本知识，具有优良品质和素质，掌握现代财务管理基本方法与技能，能在工商企业、金融机构、事业单位及政府部门从事财务、金融管理以及教学、科研方面工作的工商管理方面的高级专门人才。
+			 主要课程:管理学、微观经济学、宏观经济学、统计学、会计学、经济法、市场营销、税法、审计学、财务管理学、高级财务管理、中级财务会计、财务报表分析、管理信息系统、投资学、金融学、商业银行经营管理等。
+			 财务管理专业学生毕业后授予管理学学士学位，学制四年。</p>
+		  <hr>
+		</div>
+		
+	 </div>
+	 <div id="gwc">
+			<div class="can">
+				<span class="canbut">友情连接</span>
+			</div>
+			<div class="con">
+			<a href="http://www.hbcnc.edu.cn/"><p>http://www.hbcnc.edu.cn/</p><br></a>
+			<a href="http://hbcnc.benke.chaoxing.com/"><p>http://hbcnc.benke.chaoxing.com/</p><br></a>
+			<a href="http://wwww.hao.360.com/"><p>http://wwww.hao.360.com/</p><br></a>
+			<a href="http://www.baidu.com/"><p>http://www.baidu.com/</p><br></a>
+			<a href="http://www.so.com/"><p>http://www.so.com/</p><br></a>
+			<a href="http://www.goole.com/"><p>http://www.goole.com/</p><br></a>
+			<a href="http://www.sogou.com/"><p>http://www.sogou.com/</p><br></a>
+			</div>
+		</div>
+	 <!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+        </div> 
+	 <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/5.js">
+			 
+</script>
+ </body>
+</html>
+

@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 文学院 </title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{position:relative;}
+     .head{width:100%;
+	       height:50px;
+		   background:rgba(0,0,0,0.3);
+		   margin:0px auto;
+	       }
+	 .xue{color:black;
+	      font-size:47px;
+	      font-family:"华文行楷";
+		  text-indent:2px;
+	      }
+	  .head button{width:40px;
+				   height:20px;
+				   background:red;
+				   color:white;
+				   font-size:14px;
+				   line-height:16px;
+				   float:right;
+				   margin-right:50px;
+				   border-radius:5px;
+				   margin-top:15px;
+				   cursor:pointer;
+				}
+   .head .ke a{color:black;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   float:right;
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+		   .h{margin-top:5px;}
+	 .content a img{position:absolute;
+					top:202px;
+					left:20px;
+	              }
+	   .jisuanji{width:105px;
+	             color:black;
+	             font-size:25px;
+	             font-family:"华文行楷";
+                 margin:-161px 145px;
+				 letter-spacing:3px;
+	             }
+		.jisuanji:hover{color:#ff3300;
+		                font-size:30px;}
+		       a{text-decoration:none;}
+			 .im{width:800px;
+			     height:300px;
+				 position:absolute;
+				 top:100px;
+				 margin-left:390px;
+				 }
+			.text{width:100%;
+			      position:absolute;
+				  top:405px;
+				  letter-spacing:3px;
+				  }
+            .title{text-align:center;}
+			.text p{width:1235px;
+			        margin-top:10px;
+			        margin-left:55px;
+			        font-size:20px;
+			        font-family:"微软雅黑"
+			      }
+			.foot{background:gray;
+			    width:100%;
+				height:50px;
+				color:black;
+				text-align:center;
+			    margin-top:2160px;
+				}
+		.daohang{width:100%;
+		         height:40px;
+				 margin-top:5px;
+		         }
+.daohang .udaohang{width:1235px;
+                   height:40px;
+				   margin:0px auto;
+                   }
+
+		.daohang ul li{width:200px;
+		               height:40px;
+					   float:left;
+					   list-style:none;
+					   background:#cc66cc;
+					   color:white;
+					   font-size:16px;
+					   font-family:"微软雅黑";
+					   margin-left:5px;
+					   text-align:center;
+					   line-height:40px;
+		                  }
+.daohang .udaohang li:hover{background:#0066cc;}
+				 /*s.baanner*/
+   .banner{width:700px;
+          height:280px;
+		  margin-top:20px;
+		  bottom:5px;
+		  left:476px;
+		  position:relative; 
+		  cursor:pointer;
+		  }
+   .banner img{height:280px;
+              position:absolute;
+              top:0px;
+			  left:0px;
+			  opacity:0;
+			  }
+   .banner .firstimg{opacity:1;
+                    }
+   .banner .java{width:120px;
+                height:12px;
+				margin:0px auto;
+				}
+   .banner  .java{width:120px;
+                 height:12px;
+				 position:absolute;
+				 left:290px;;
+				 bottom:0px;
+				 }
+   .banner .java a{width:12px;
+                  height:12px;
+				  background:rgba(0,0,0,1);
+				  display:block;
+				  float:left;
+				  margin:5px;
+				  margin-top:0px;
+				  left:5px;
+				  position:relative;
+				  border-radius:50%;
+				  }
+   .banner .java .java_first{background:rgba(0,0,0,0.2);}
+  /**/
+   .banner p{width:50px;
+             height:50px;
+		     background:rgba(0,0,0,0.5);
+		     position:absolute;
+		     color:white;
+		     font-size:30px;
+		     text-align:center;
+		     line-height:50px;
+		   
+		     }
+   .banner .btn{position:absolute;
+                top:125px;
+				z-index:2;
+				background:rgba(0,0,0,0.5);
+				padding:4px 3px;
+				}
+  .banner .left{left:5px;}
+ .banner .right{right:5px;}
+ #gwc{width: 325px;
+                  height: 100%;
+                  position: fixed;
+                  right: -285px;
+                  top:55px;
+                  cursor:pointer;}
+       #gwc .can {
+                  width: 40px;
+                  height: 100%;
+                  background: rgba(0,0,0,0.3);
+                  float: left;
+                  }
+#gwc .can .canbut {
+                   display: block;
+                   color: red;
+                   width: 12px;
+                   font-size:14px;
+                   padding: 20px 14px;
+                   background: rgba(0,0,0,0.2);
+                   margin-top: 200px;
+                   }
+        #gwc .con { 
+                   width: 285px;
+                   height: 100%;
+                   background: rgba(0,0,0,0.1);
+                   float: right;
+                   }
+          #gwc .con p{margin:20px;
+		              color:#ff0000;
+					  font-size:16px;
+					  font-family:"微软雅黑";
+					  text-indent:-9px;
+					  font-weight:bold;
+					  margin-top:24px;}
+#gwc .con .content{
+			height:70px;
+			border-bottom:1px solid #fff;
+			padding:5px 10px;
+
+		}
+		#gwc .con .content img{
+			float:left;
+			margin-right:10px;
+		}
+		#gwc .con .content .text{
+			width:120px;
+			float:left;
+			font-size:12px;
+			line-height:12px;/*行高*/
+		}
+		#gwc .con .content .con-money{
+			width:120px
+			font-size:12px;
+			float:left;	
+			line-height:12px;/*行高*/
+			color:red;
+		}
+       
+  </style>
+
+ </head>
+ 
+ <body>
+     <div class="head">
+	     <a href="students login.html" > <button>登录</button></a>
+		 <div class="ke"><a href="http://tb.53kf.com/webCompany.php?arg=10080899&style=1">客服</a></div>
+	     <a href="index.html"> <p class="xue">淮北师范大学</p> </a>
+	</div>
+	 <div class="daohang">
+		     <ul class="udaohang">
+			     <a title="&#12;汉语言文学(师范)"href="#1"><li>汉语言文学(师范)</li></a>
+				 <a title="&#13;对外汉语(师范)"href="#2"><li>对外汉语(师范)</li></a>
+				 <a title="&#14;新闻学"href="#3"><li>新闻学</li></a>
+				 <a title="&#15;广告学"href="#4"><li>广告学</li></a>
+				 <a title="&#16;汉语言文学（国际教育）"href="#5"><li>汉语言文学（国际教育）</li></a>
+				 <a title="&#17;戏剧文学"href="#6"><li>戏剧文学</li></a>
+
+			 </ul>
+		 </div>
+		 <hr class="h">
+	<div class="banner">
+         <img class="" src="image/1.jpg" width="700" height="280">
+         <img src="image/2.jpg" width="700" height="280" class="">
+         <img src="image/6.jpg" width="700" height="280" class="">
+         <img src="image/13.jpg" width="700" height="280" class="firstimg">
+         <img src="image/11.jpg" width="700" height="280" class="">
+  
+  
+ 
+	   <div class="java">
+		  <a class="java_first" href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+	   </div>
+       <p class="btn left" style="display: none;">&lt;</p>
+       <p class="btn right" style="display: none;">&gt;</p>
+	
+    </div>
+	 <div class="content">
+	     
+	     <a href="index.html">
+				 <img src="image/8.jpg" width="100" height="100">
+				 <p class="jisuanji">文学院</p>
+		 </a>
+		
+		 
+		<div class="text">
+		  <hr>
+		     <h2 class="title">文学院</h2>
+		     <p> &nbsp;&nbsp;&nbsp;&nbsp;淮北师范大学文学院的前身为安徽师范大学淮北分校中文系，1974年成立，1978年12月更名为淮北煤炭师范学院中文系，2007年12月改为淮北煤炭师范学院文学院，2010年3月定为现名，是全校专业设置最早和科类发展最为齐全的院系之一。著名学者吴孟复先生曾任中文系主任。</p>
+			 <p> &nbsp;&nbsp;&nbsp;&nbsp;淮北师范大学文学院是全校专业设置最早和科类发展最为齐全的院系之一，在30余年的办学历程中，文学院紧紧围绕学院的办学指导思想，积极充实办学内涵，提升办学层次，在专业设置上走出了一条由单纯的师范专业向以师范为主，积极发展其他非师范专业的道路。文学院建系初期只有汉语言文学师范本科专业。20世纪80-90年代初，专业设置有:汉语言文学(师范)、教师进修班、文秘专科、新闻专科和中文专科等。20世纪90年代初至21世纪初，专业设置有:汉语言文学(师范)、新闻专科、文秘专科、中文专科、函授专科、函授本科等。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;2000年至今设置有:汉语言文学师范本科、汉语言文学非师范本科、新闻学本科、对外汉语教学本科、广告学等专业;同时，文学院还承担了全校大学语文、普通话教学及皖北地区中学语文教师培训任务。近年来，文学院办学层次不断提高，中国古典文献学和文艺学先后于2004年和2007年开始正式开始招收硕士研究生。2011年4月获中国语言文学一级硕士点。中国古典文献学2005、2008年先后两次被评为省级重点学科。本科省级精品课程2门:中国现当代文学、语言学概论，研究生省级精品课程1门:文艺学;校级精品课程五门:中国古代文学、中国现当代文学、语言学概论、现代汉语、新闻学概论。文学院现有省级重点学科1个:中国古典文献学，校级重点学科2个:汉语言文字学、文艺学;汉语言文学先后获批为省级扶持教改示范专业、国家级特色专业。文学院办学条件好，拥有一大批现代化教学设备，其中中央与地方共建的大型"中国古典文献数字化实验室"目前处于国内领先、省内唯一的地位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;文学院现有专任教师76人，其中高级职称40人(其中教授12人、副教授28人);博士24人、硕士43人;省级拔尖人才2人、省优秀中青年骨干教师5人;校拔尖人才4人、校优秀主讲教师4人;硕士生导师11人。另外还聘请了来自中国社会科学院、中国艺术研究院等著名科研院所和高校的兼职教授12人，如张国宪、刘祯等。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;"十五"以来，全院教师先后在省部级以上刊物发表论文300余篇，其中国家级、国家重点级刊物论文100余篇，出版专著12部，获省部级以上科研奖励6项，省级教学成果奖3项，校级教学成果奖6项;承担省部级以上科、教研课题40余项。文学院本着"以教学为中心，以学科为生命"的办学理念，在30余年的办学过程中为社会培养了一大批优秀人才，涌现出众多杰出校友。他们当中，有的长期奋斗在教学第一线，成为全国优秀教师或教学能手;有的在学术上颇有建树，成为知名专家或博导;有的发挥自己的特长，成长为著名作家或导演;还有的已走上行政领导岗位，成为省部级官员;他们都在各自的岗位上为社会作出贡献。多年的积累形成了鲜明的"注重传统、强化技能"办学特色。注重传统就是着力培养与提高学生中国传统文化的素养;"强化技能"就是着力提高学生的实践技能。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;近年来，文学院各专业形成了鲜明的就业特点。汉语言文学专业一般到大专院校、中等学校及教育管理部门与大型厂矿等企事业单位从事语文教学、文秘等工作。新闻学专业一般到广播电视、电视台、报社等新闻媒体工作及企事业单位从事新闻宣传工作。对外汉语专业一般到各类学校、新闻出版、文化管理和企事业单位从事对外汉语教学、中外文化交流等工作。近三年汉语言文学师范专业一次性就业率持续保持在80%以上;非师范专业主要面向文化、企事业单位文秘等，地域广阔，一次性就业率也超过55%。所有专业年底就业率均保持在95%以上。文学院的学生社团包括淮原文学社、舒柳书协、青年志愿者服务社、公关礼仪协会等。学生社团经常开展丰富多彩，旨在培养学生各方面能力，提高其综合素质。编辑本段历史沿革</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="1"></a><b class="title">&#12;汉语言文学(师范)</b>
+			 培养目标:本专业培养具有汉语言文学基本理论、基础知识和基本技能、能够在中等学校进行汉语言文学教学和教学研究的教师、教学研究人员及从事其他教育工作者的高级专门人才。
+			 主要课程:语言学概论、现代汉语、古代汉语、中国汉字学、训诂学、中国语言学史、西方语言学史、语言文字信息处理、中国文化概论、中国古代文献学、文学理论、西方文论、中国现当代文学史、中国现当代文学作品选、中国古代文学史、中国古代文学作品选、民间文学、比较文学、写作、文艺心理学、中国文学批评史、语文教学论等。
+			 本专业学制四年，毕业后授予文学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="2"></a><b class="title">对外汉语(师范)</b>
+             培养目标:本专业以汉英双语教学为特色，培养具备较高的汉语语言文化知识和写作水平，对中国文化、中国文学、西方文化以及中外文化交往有较全面的了解，具有较全面的英语听、说、读、写、译能力，培养从事汉英双语教学、对外汉语教学和研究的高级专门人才。主要课程:基础英语、英语听力、英语阅读、英语写作、英汉翻译、现代汉语、古代汉语、语言学概论、中国古代文学作品选读、中国现当代文学作品选读、外国文学、西方文化与礼仪、中国文化概论、对外汉语教学概论等。
+			 本专业学制四年，毕业后授予文学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="3"></a><b class="title">新闻学</b>
+             培养目标:本专业培养具备系统的新闻理论知识与技能、宽广的文化与科学知识，熟悉我国新闻、宣传政策法规，能在新闻、出版与宣传部门从事编辑、记者与管理等工作的新闻学高级专门人才。主要课程:新闻学概论、中国新闻事业史、外国新闻事业史、新闻采访学、新闻写作学、新闻编辑学、新闻评论学、马列新闻论著选读、中国古代文学作品选读、大众传播学、新闻法规与职业道德、新闻摄影、广播电视新闻学、媒介经营与管理、广告学与公共关系学等。
+			 本专业学制四年，毕业后授予文学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="4"></a><b class="title">广告学</b>
+             培养目标:本专业培养具备广告学理论与技能、宽广的文化与科学知识，能在广告传播专业公司、新闻媒体和制作单位、企业营销与公共关系部门、政府广告管理与发布等部门，从事广告公共实务、管理和公共关系工作的专门人才。主要课程:传播学概论、中国传播史、外国传播史、广告学概论、公共关系学、美学原理、传播学研究方法、市场营销学、市场调查、广告文案写作、广告策划、实用美术与广告设计、电脑图文设计、广告摄影、广告管理、中国古代文学作品选读、中国现当代文学作品选读等。本专业学制四年，毕业后授予文学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="5"></a><b class="title">汉语言文学（国际教育）</b>
+			 培养目标:本专业以汉英双语教学为特色，培养具备较高的汉语语言文化知识和写作水平，对中国文化、中国文学、西方文化以及中外文化交往有较全面的了解，具有较全面的英语听、说、读、写、译能力，培养从事汉英双语教学、对外汉语教学和研究的高级专门人才。主要课程:基础英语、英语听力、英语阅读、英语写作、英汉翻译、现代汉语、古代汉语、语言学概论、中国古代文学作品选读、中国现当代文学作品选读、外国文学、西方文化与礼仪、中国文化概论、对外汉语教学概论等。
+			 本专业学制四年，毕业后授予文学学士学位。
+             </p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="6"></a><b clss="title">戏剧文学</b>
+			 培养目标:本专业以汉英双语教学为特色，培养具备较高的汉语语言文化知识和写作水平，对中国文化、中国文学、西方文化以及中外文化交往有较全面的了解，具有较全面的英语听、说、读、写、译能力，培养从事汉英双语教学、对外汉语教学和研究的高级专门人才。主要课程:基础英语、英语听力、英语阅读、英语写作、英汉翻译、现代汉语、古代汉语、语言学概论、中国古代文学作品选读、中国现当代文学作品选读、外国文学、西方文化与礼仪、中国文化概论、对外汉语教学概论等。
+			 本专业学制四年，毕业后授予文学学士学位。
+			 </p>
+		  <hr>
+		</div>
+		
+	 </div>
+	 <div id="gwc">
+			<div class="can">
+				<span class="canbut">友情连接</span>
+			</div>
+			<div class="con">
+			<a href="http://www.hbcnc.edu.cn/"><p>http://www.hbcnc.edu.cn/</p><br></a>
+			<a href="http://hbcnc.benke.chaoxing.com/"><p>http://hbcnc.benke.chaoxing.com/</p><br></a>
+			<a href="http://wwww.hao.360.com/"><p>http://wwww.hao.360.com/</p><br></a>
+			<a href="http://www.baidu.com/"><p>http://www.baidu.com/</p><br></a>
+			<a href="http://www.so.com/"><p>http://www.so.com/</p><br></a>
+			<a href="http://www.goole.com/"><p>http://www.goole.com/</p><br></a>
+			<a href="http://www.sogou.com/"><p>http://www.sogou.com/</p><br></a>
+			</div>
+		</div>
+	 <!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+        </div> 
+	 <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/5.js">
+			 
+</script>
+ </body>
+</html>
+

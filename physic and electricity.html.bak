@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 物理与电子信息学院 </title>
+  <meta charset="UTF-8"/>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+     *{margin:0px;padding:0px;}
+	 body{position:relative;}
+     .head{width:100%;
+	       height:50px;
+		   background:rgba(0,0,0,0.3);
+		   margin:0px auto;
+	       }
+	 .xue{color:black;
+	      font-size:47px;
+	      font-family:"华文行楷";
+		  text-indent:2px;
+	      }
+	  .head button{width:40px;
+				   height:20px;
+				   background:red;
+				   color:white;
+				   font-size:14px;
+				   line-height:16px;
+				   float:right;
+				   margin-right:50px;
+				   border-radius:5px;
+				   margin-top:15px;
+				   cursor:pointer;
+				}
+   .head .ke a{color:black;
+			   font-size:14px;
+			   font-family:"微软雅黑";
+			   float:right;
+			   margin:-2px;
+			   cursor:pointer;
+			   text-decoration:none;
+			   margin-right:-89px;
+               line-height:50px;
+           }
+		   .h{margin-top:5px;}
+	 .content a img{position:absolute;
+					top:202px;
+					left:20px;
+	              }
+	   .jisuanji{width:300px;
+	             color:black;
+	             font-size:25px;
+	             font-family:"华文行楷";
+                 margin:-161px 122px;
+	             }
+		.jisuanji:hover{color:#ff3300;
+		                font-size:30px;}
+		       a{text-decoration:none;}
+			 .im{width:800px;
+			     height:300px;
+				 position:absolute;
+				 top:100px;
+				 margin-left:390px;
+				 }
+			.text{width:100%;
+			      position:absolute;
+				  top:405px;
+				  letter-spacing:3px;
+				  }
+            .title{text-align:center;}
+			.text p{width:1235px;
+			        margin-top:10px;
+			        margin-left:55px;
+			        font-size:20px;
+			        font-family:"微软雅黑"
+			      }
+			.foot{background:gray;
+			    width:100%;
+				height:50px;
+				color:black;
+				text-align:center;
+			    margin-top:1565px;
+				}
+		.daohang{width:100%;
+		         height:40px;
+				 margin-top:5px;
+		         }
+.daohang .udaohang{width:1226px;
+                   height:40px;
+				   margin:0px auto;
+                   }
+
+		.daohang ul li{width:240px;
+		               height:40px;
+					   float:left;
+					   list-style:none;
+					   background:#cc66cc;
+					   color:white;
+					   font-size:20px;
+					   font-family:"微软雅黑";
+					   margin-left:5px;
+					   text-align:center;
+					   line-height:40px;
+		                  }
+.daohang .udaohang li:hover{background:#0066cc;}
+ /*s.baanner*/
+   .banner{width:700px;
+          height:280px;
+		  margin-top:20px;
+		  bottom:5px;
+		  left:476px;
+		  position:relative; 
+		  cursor:pointer;
+		  }
+   .banner img{height:280px;
+              position:absolute;
+              top:0px;
+			  left:0px;
+			  opacity:0;
+			  }
+   .banner .firstimg{opacity:1;
+                    }
+   .banner .java{width:120px;
+                height:12px;
+				margin:0px auto;
+				}
+   .banner  .java{width:120px;
+                 height:12px;
+				 position:absolute;
+				 left:290px;;
+				 bottom:0px;
+				 }
+   .banner .java a{width:12px;
+                  height:12px;
+				  background:rgba(0,0,0,1);
+				  display:block;
+				  float:left;
+				  margin:5px;
+				  margin-top:0px;
+				  left:5px;
+				  position:relative;
+				  border-radius:50%;
+				  }
+   .banner .java .java_first{background:rgba(0,0,0,0.2);}
+  /**/
+   .banner p{width:50px;
+             height:50px;
+		     background:rgba(0,0,0,0.5);
+		     position:absolute;
+		     color:white;
+		     font-size:30px;
+		     text-align:center;
+		     line-height:50px;
+		   
+		     }
+   .banner .btn{position:absolute;
+                top:125px;
+				z-index:2;
+				background:rgba(0,0,0,0.5);
+				padding:4px 3px;
+				}
+  .banner .left{left:5px;}
+ .banner .right{right:5px;}
+ #gwc{width: 325px;
+                  height: 100%;
+                  position: fixed;
+                  right: -285px;
+                  top:55px;
+                  cursor:pointer;}
+       #gwc .can {
+                  width: 40px;
+                  height: 100%;
+                  background: rgba(0,0,0,0.3);
+                  float: left;
+                  }
+#gwc .can .canbut {
+                   display: block;
+                   color: red;
+                   width: 12px;
+                   font-size:14px;
+                   padding: 20px 14px;
+                   background: rgba(0,0,0,0.2);
+                   margin-top: 200px;
+                   }
+        #gwc .con { 
+                   width: 285px;
+                   height: 100%;
+                   background: rgba(0,0,0,0.1);
+                   float: right;
+                   }
+          #gwc .con p{margin:20px;
+		              color:#ff0000;
+					  font-size:16px;
+					  font-family:"微软雅黑";
+					  text-indent:-9px;
+					  font-weight:bold;
+					  margin-top:24px;}
+#gwc .con .content{
+			height:70px;
+			border-bottom:1px solid #fff;
+			padding:5px 10px;
+
+		}
+		#gwc .con .content img{
+			float:left;
+			margin-right:10px;
+		}
+		#gwc .con .content .text{
+			width:120px;
+			float:left;
+			font-size:12px;
+			line-height:12px;/*行高*/
+		}
+		#gwc .con .content .con-money{
+			width:120px
+			font-size:12px;
+			float:left;	
+			line-height:12px;/*行高*/
+			color:red;
+		}
+         
+  </style>
+
+ </head>
+ 
+ <body>
+     <div class="head">
+	     <a href="students login.html" > <button>登录</button></a>
+		 <div class="ke"><a href="http://tb.53kf.com/webCompany.php?arg=10080899&style=1">客服</a></div>
+	     <a href="index.html"> <p class="xue">淮北师范大学</p> </a>
+	</div>
+	 <div class="daohang">
+		     <ul class="udaohang">
+			     <a title="&#12;物理学（师范类）"href="#1"><li>物理学（师范类）</li></a>
+				 <a title="&#16;材料物理"href="#2"><li>材料物理</li></a>
+				 <a title="&#14;电子信息工程"href="#3"><li>电子信息工程</li></a>
+				 <a title="&#15;通信工程"href="#4"><li>通信工程</li></a>
+				 <a title="&#13;电子信息科学与技术"href="#5"><li>电子信息科学与技术</li></a>
+			 </ul>
+		 </div>
+		 <hr class="h">
+	<div class="banner">
+         <img class="" src="image/1.jpg" width="700" height="280">
+         <img src="image/10.jpg" width="700" height="280" class="">
+         <img src="image/6.jpg" width="700" height="280" class="">
+         <img src="image/13.jpg" width="700" height="280" class="firstimg">
+         <img src="image/11.jpg" width="700" height="280" class="">
+  
+  
+ 
+	   <div class="java">
+		  <a class="java_first" href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+		  <a href="#"></a>
+	   </div>
+       <p class="btn left" style="display: none;">&lt;</p>
+       <p class="btn right" style="display: none;">&gt;</p>
+	
+    </div>
+	 <div class="content">
+	     
+	     <a href="index.html">
+				 <img src="image/19.jpg" width="100" height="100">
+				 <p class="jisuanji">物理与电子信息学院</p>
+		 </a>
+		 
+		 
+		<div class="text">
+		  <hr>
+		     <h2 class="title">物理与电子信息学院</h2>
+		     <p> &nbsp;&nbsp;&nbsp;&nbsp;物理与电子信息学院前身物理系，成立于1974年，是建校时最早成立的系之一，现有物理学（师范类）、电子信息科学与技术、电子信息工程、通信工程和材料物理五个本科专业，有“材料物理与化学” 省级重点学科和硕士点专业，“凝聚态物理” 、“检测技术自动化装置”校级重点学科。物电学院下设基础物理、材料物理、电子信息等6个教研室，1个校级“纳米材料科学技术研究所”以及“材料物理”、“高性能计算”等多个实验室（中心）。“基础物理实验中心”为省级基础课实验教学示范中心。拥有实验仪器设备总值1368万元，实验室面积6000多平方米。</p>
+			 <p> &nbsp;&nbsp;&nbsp;&nbsp;物理与电子信息学院现有专职教师80人，其中教授9人、副教授29人；有博士22人、硕士50人。近五年来发表学术论文200余篇，其中被SCI、EI收录的论文70多篇。先后承担国家自然科学基金项目、省“十五”“十一五”攻关项目和省自然科学基金项目20多项，承担教育厅、淮北市和地方企业横向合作科研项目30多项。获国家级科学技术奖1项以及安徽省、教育厅、淮北市等各级各类科技奖励20多项。</p>
+			 <p>  &nbsp;&nbsp;&nbsp;&nbsp;物理与电子信息学院在长期的办学过程中，秉承知名物理学家葛旭初先生当年在物理系执教时倡导的“严谨治学、开拓创新”的人文精神，逐渐形成了“尊重学生学习主体性、培养学生学习自主性、激发学生学习的创新性” 的办学特色。积极开展教育教学改革与实践，近5年承担省级和校级教研项目20多项，获省级和校级教学成果奖10余项。多年来一贯坚持组织和指导学生参加 “挑战杯”、“世纪之光”、“大学生电子设计竞赛”等全国性和省级大型科技活动，并多次获奖；毕业生以扎实的基础知识、过硬的职业技能深受用人单位的好评；学生考研录取率逐年提高，大量毕业生在国内知名大学和研究所进一步深造学习，部分在海外留学，一大批毕业生已成各部门业务骨干。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="1"></a><b class="title">物理学</b>
+             培养目标:本专业培养掌握物理学的基本理论、基本知识及实验技能，获得进行科学研究的初步训练，能在高等和中等学校进行物理学教学的教师、教育科研人员和其他教育工作者。
+             主要课程:教育学、心理学、教育技术学、数学物理方法、理论力学、电动力学、热力学与统计物理学、量子力学、固体物理学、电子线路、数子电路、近代物理实验、物理学教学论、中学物理实验与教学技能基本训练。
+             本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="2"></a><b class="title">材料物理</b>
+             培养目标:本专业培养较系统地掌握材料科学的基本理论与技术，具备材料物理相关的基本知识和基本技能，能在材料科学与工程及与其相关的领域从事研究、教学、科技开发及相关管理工作的材料物理高级专门人才。主要课程:大学化学、材料力学、电动力学基础、热力学与统计物理学、量子力学基础、固体物理学、工程制图、材料科学基础、材料现代分析方法、材料科学基础实验、材料分析实验等。
+             本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="3"></a><b class="title">电子信息工程专业</b>
+             培养目标:电子信息工程专业:本专业培养具备电子技术和信息系统的基础知识，能从事各类电子设备和信息系统的研究、设计、制造、应用和开发的高等工程技术人才。
+             通信工程专业:本专业培养具备通信技术、通信系统和通信网等方面的知识，能在通信领域中从事研究、设计、制造、运营及在国民经济各部门和国防工业中从事开发、应用通信技术与设备的高等工程技术人才。
+			 主要课程:高等数学、线性代数、概率论与数理统计、数学物理方法、普通物理学、普通物理实验、高级语言程序设计、工程制图、电路分析基础、线性电子线路、数字电路、非线性电子线路、电子线路实验、信号与线性系统、微机原理及应用、通信原理、数字信号处理、电磁场与电磁波、单片机原理及应用
+             本专业学制四年，毕业后授予工学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="4"></a><b class="title">通信工程</b>
+             :本专业培养具备通信技术、通信系统和通信网等方面的知识，能在通信领域中从事研究、设计、制造、运营及在国民经济各部门和国防工业中从事开发、应用通信技术与设备的高等工程技术人才。
+			 主要课程:高等数学、线性代数、概率论与数理统计、数学物理方法、普通物理学、普通物理实验、高级语言程序设计、工程制图、电路分析基础、线性电子线路、数字电路、非线性电子线路、电子线路实验、信号与线性系统、微机原理及应用、通信原理、数字信号处理、电磁场与电磁波、单片机原理及应用
+             本专业学制四年，毕业后授予工学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;<a name="5"></a><b class="title">电子信息科学</b>
+             培养目标:本专业培养具备电子信息科学与技术的基本理论和基本知识，受到严格的科学实验训练和科学研究初步训练，具有一定的创新能力和较强的实践能力，能在电子信息科学与技术、计算机科学与技术及相关领域和行政部门从事科学研究、教学、科技开发、产品设计、生产技术管理工作的电子信息科学与技术高级专门人才。
+			 主要课程:高等数学、线性代数、数学物理方法、普通物理、计算机与算法结构、工程制图、电路分析、算法与数据结构、概率论与数理统计、线性电子线路、数字电路、信号与线性系统、非线性电子线路、微机原理及应用、通信原理、信息论、普通物理实验、电子线路实验。
+             本专业学制四年，毕业后授予理学学士学位。</p>
+			 <p>   &nbsp;&nbsp;&nbsp;&nbsp;物理与电子信息学院联系电话：
+                  0561-3802229（办公室）-3803256（院长室）-3803251（总支室）。</p>
+			 
+		  <hr>
+		</div>
+		
+	 </div>
+	 <div id="gwc">
+			<div class="can">
+				<span class="canbut">友情连接</span>
+			</div>
+			<div class="con">
+			<a href="http://www.hbcnc.edu.cn/"><p>http://www.hbcnc.edu.cn/</p><br></a>
+			<a href="http://hbcnc.benke.chaoxing.com/"><p>http://hbcnc.benke.chaoxing.com/</p><br></a>
+			<a href="http://wwww.hao.360.com/"><p>http://wwww.hao.360.com/</p><br></a>
+			<a href="http://www.baidu.com/"><p>http://www.baidu.com/</p><br></a>
+			<a href="http://www.so.com/"><p>http://www.so.com/</p><br></a>
+			<a href="http://www.goole.com/"><p>http://www.goole.com/</p><br></a>
+			<a href="http://www.sogou.com/"><p>http://www.sogou.com/</p><br></a>
+			</div>
+		</div>
+	 <!--网站底部-->
+
+		<div class="foot">
+		版权所有：淮北师范大学滨湖校区7625<br/> 
+		<span>地址：安徽省淮北市沱河路8号</span>&nbsp qq：1349488071<span>&nbsp邮政编码：235000</span>&nbsp制作人：张振  <span>&nbsp欢迎提供建议</span>
+        </div> 
+	 <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/4.js">
+			 
+</script>
+ </body>
+</html>
